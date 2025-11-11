@@ -5,7 +5,7 @@ from diskcache import FanoutCache, Disk
 from io import BytesIO
 from diskcache.core import MODE_BINARY
 
-from logconf import logging
+from .logconf import logging
 
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)

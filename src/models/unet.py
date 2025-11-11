@@ -3,7 +3,7 @@ import math
 from torch import nn
 import torch.nn.functional as F
 
-from layers.blocks import UNetConvBlock, UNetUpBlock
+from .layers.blocks import UNetConvBlock, UNetUpBlock
 
 
 class UNet(nn.Module):
